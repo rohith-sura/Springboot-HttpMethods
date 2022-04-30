@@ -24,7 +24,7 @@ public class HttpMethodsController {
 	}
 
 	@GetMapping("/get")
-	public Response getResponse(
+	public Response getResponsecd (
 			@RequestParam(value = "Id", required = true) final String id,
 			@RequestParam(value = "Name", required = true) final String name,
 			@RequestParam(value = "Marks", required = true) final Integer marks) {
